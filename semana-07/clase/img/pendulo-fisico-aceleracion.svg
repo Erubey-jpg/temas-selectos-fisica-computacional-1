@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-label="Pendulo fisico: el centro de masa G, a L/2 del pivote, tiene velocidad perpendicular a la varilla y aceleracion con una parte tangencial y una centripeta que apunta al pivote">
+  <defs>
+    <marker id="flecha-gris" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333333"/>
+    </marker>
+    <marker id="flecha-azul" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f5fa8"/>
+    </marker>
+    <marker id="flecha-rojo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="flecha-verde" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e8b57"/>
+    </marker>
+    <marker id="flecha-tenue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#999999"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="478" height="298" rx="12" fill="#f7f7f5" stroke="#d8d8d3" stroke-width="1"/>
+  <!-- techo y pivote -->
+  <line x1="160.0" y1="45.0" x2="240.0" y2="45.0" stroke="#333333" stroke-width="2"/>
+  <path d="M 168.0 45.0 L 160.0 37.0 M 178.0 45.0 L 170.0 37.0 M 188.0 45.0 L 180.0 37.0 M 198.0 45.0 L 190.0 37.0 M 208.0 45.0 L 200.0 37.0 M 218.0 45.0 L 210.0 37.0 M 228.0 45.0 L 220.0 37.0 M 238.0 45.0 L 230.0 37.0" stroke="#333333" stroke-width="1"/>
+  <circle cx="200.0" cy="45.0" r="5" fill="#f7f7f5" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="200.0" cy="45.0" r="1.6" fill="#333333"/>
+  <line x1="200.0" y1="45.0" x2="200.0" y2="275.0" stroke="#333333" stroke-width="1" stroke-dasharray="5 4"/>
+  <line x1="200.0" y1="45.0" x2="310.0" y2="235.5" stroke="#555555" stroke-width="7"/>
+  <path d="M 200.0 81.0 A 36 36 0 0 0 218.0 76.2" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <text x="204.0" y="99.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="15" fill="#c0392b"><tspan font-style="italic">θ</tspan></text>
+
+  <!-- centro de masa G -->
+  <circle cx="255.0" cy="140.3" r="6" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+  <text x="267.0" y="160.3" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="16" fill="#333333"><tspan font-style="italic">G</tspan></text>
+
+  <!-- velocidad de G -->
+  <line x1="255.0" y1="140.3" x2="311.3" y2="107.8" stroke="#1f5fa8" stroke-width="2.5" marker-end="url(#flecha-azul)"/>
+  <text x="317.3" y="103.8" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="15" fill="#1f5fa8"><tspan font-weight="bold">v</tspan><tspan font-style="italic" dy="4" font-size="10">G</tspan><tspan dy="-4"> = (</tspan><tspan font-style="italic">L</tspan><tspan>/2) </tspan><tspan font-style="italic">θ</tspan><tspan dx="-6.8" dy="-3">˙</tspan><tspan dx="0.9" dy="3"> </tspan><tspan font-weight="bold">â</tspan><tspan font-style="italic" dy="4" font-size="10">x</tspan></text>
+
+  <!-- aceleracion de G: tangencial y centripeta -->
+  <line x1="255.0" y1="140.3" x2="216.0" y2="162.8" stroke="#2e8b57" stroke-width="2" marker-end="url(#flecha-verde)" stroke-dasharray="5 3"/>
+  <text x="210.0" y="178.8" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="15" fill="#2e8b57" text-anchor="end"><tspan>(</tspan><tspan font-style="italic">L</tspan><tspan>/2) </tspan><tspan font-style="italic">θ</tspan><tspan dx="-6.8" dy="-3">¨</tspan><tspan dx="0.9" dy="3"> </tspan><tspan font-weight="bold">â</tspan><tspan font-style="italic" dy="4" font-size="10">x</tspan></text>
+  <line x1="242.9" y1="147.3" x2="215.4" y2="99.6" stroke="#2e8b57" stroke-width="2.5" marker-end="url(#flecha-verde)"/>
+  <text x="185.4" y="103.6" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="15" fill="#2e8b57" text-anchor="end"><tspan>(</tspan><tspan font-style="italic">L</tspan><tspan>/2) </tspan><tspan font-style="italic">θ</tspan><tspan dx="-6.8" dy="-3">˙</tspan><tspan dx="0.9" dy="-4" font-size="10">2</tspan><tspan dy="7"> </tspan><tspan font-weight="bold">â</tspan><tspan font-style="italic" dy="4" font-size="10">y</tspan></text>
+  <text x="185.4" y="119.6" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="13" fill="#2e8b57" text-anchor="end">centrípeta, hacia O</text>
+</svg>

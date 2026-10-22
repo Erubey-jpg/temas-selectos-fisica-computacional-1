@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320" role="img" aria-label="Marcos N y A: A esta girado un angulo theta respecto a N alrededor de z; la masa P cuelga en -L a_y; su altura es la proyeccion sobre n_y, -L cos theta; en P, a_x es la direccion de la velocidad">
+  <defs>
+    <marker id="flecha-gris" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333333"/>
+    </marker>
+    <marker id="flecha-azul" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f5fa8"/>
+    </marker>
+    <marker id="flecha-rojo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="flecha-verde" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e8b57"/>
+    </marker>
+    <marker id="flecha-tenue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#999999"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="418" height="318" rx="12" fill="#f7f7f5" stroke="#d8d8d3" stroke-width="1"/>
+  <!-- techo y pivote -->
+  <line x1="130.0" y1="80.0" x2="210.0" y2="80.0" stroke="#333333" stroke-width="2"/>
+  <path d="M 138.0 80.0 L 130.0 72.0 M 148.0 80.0 L 140.0 72.0 M 158.0 80.0 L 150.0 72.0 M 168.0 80.0 L 160.0 72.0 M 178.0 80.0 L 170.0 72.0 M 188.0 80.0 L 180.0 72.0 M 198.0 80.0 L 190.0 72.0 M 208.0 80.0 L 200.0 72.0" stroke="#333333" stroke-width="1"/>
+  <circle cx="170.0" cy="80.0" r="5" fill="#f7f7f5" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="170.0" cy="80.0" r="1.6" fill="#333333"/>
+  <line x1="170.0" y1="80.0" x2="170.0" y2="305.0" stroke="#333333" stroke-width="1" stroke-dasharray="5 4"/>
+
+  <!-- marco N del laboratorio -->
+  <line x1="170.0" y1="80.0" x2="225.0" y2="80.0" stroke="#333333" stroke-width="2" marker-end="url(#flecha-gris)"/>
+  <line x1="170.0" y1="80.0" x2="170.0" y2="25.0" stroke="#333333" stroke-width="2" marker-end="url(#flecha-gris)"/>
+  <text x="230.0" y="85.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#333333"><tspan font-weight="bold">n̂</tspan><tspan font-style="italic" dy="4" font-size="12">x</tspan></text>
+  <text x="176.0" y="34.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#333333"><tspan font-weight="bold">n̂</tspan><tspan font-style="italic" dy="4" font-size="12">y</tspan></text>
+
+  <!-- marco A: N girado theta alrededor de z -->
+  <line x1="170.0" y1="80.0" x2="215.1" y2="48.5" stroke="#1f5fa8" stroke-width="2" marker-end="url(#flecha-azul)"/>
+  <line x1="170.0" y1="80.0" x2="138.5" y2="34.9" stroke="#1f5fa8" stroke-width="2" marker-end="url(#flecha-azul)"/>
+  <text x="220.8" y="44.4" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#1f5fa8"><tspan font-weight="bold">â</tspan><tspan font-style="italic" dy="4" font-size="12">x</tspan></text>
+  <text x="112.5" y="38.9" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#1f5fa8"><tspan font-weight="bold">â</tspan><tspan font-style="italic" dy="4" font-size="12">y</tspan></text>
+
+  <!-- el mismo angulo theta: entre n_x y a_x, y entre la vertical y la varilla -->
+  <path d="M 200.0 80.0 A 30 30 0 0 0 194.6 62.8" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <text x="204.0" y="74.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#c0392b"><tspan font-style="italic">θ</tspan></text>
+  <path d="M 170.0 128.0 A 48 48 0 0 0 197.5 119.3" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <text x="178.0" y="150.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#c0392b"><tspan font-style="italic">θ</tspan></text>
+
+  <!-- varilla y masa en P = -L a_y -->
+  <line x1="170.0" y1="80.0" x2="264.6" y2="215.2" stroke="#333333" stroke-width="3"/>
+  <circle cx="264.6" cy="215.2" r="10" fill="#8a8a85" stroke="#333333" stroke-width="1.5"/>
+  <text x="276.6" y="237.2" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#333333"><tspan font-style="italic">P</tspan></text>
+  <text x="144.0" y="98.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#333333"><tspan font-style="italic">O</tspan></text>
+  <text x="231.3" y="151.6" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#333333"><tspan>−</tspan><tspan font-style="italic">L</tspan><tspan> </tspan><tspan font-weight="bold">â</tspan><tspan font-style="italic" dy="4" font-size="12">y</tspan></text>
+
+  <!-- altura: proyeccion de r_P sobre n_y -->
+  <line x1="264.6" y1="215.2" x2="170.0" y2="215.2" stroke="#999999" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="148.0" y1="84.0" x2="148.0" y2="211.2" stroke="#333333" stroke-width="1.5" marker-end="url(#flecha-gris)" marker-start="url(#flecha-gris)"/>
+  <text x="140.0" y="139.6" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="14" fill="#333333" text-anchor="end">altura</text>
+  <text x="140.0" y="161.6" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="16" fill="#333333" text-anchor="end"><tspan>−</tspan><tspan font-style="italic">L</tspan><tspan> cos </tspan><tspan font-style="italic">θ</tspan></text>
+
+  <!-- en P, a_x apunta en la direccion de la velocidad -->
+  <line x1="264.6" y1="215.2" x2="305.6" y2="186.5" stroke="#1f5fa8" stroke-width="2" marker-end="url(#flecha-azul)"/>
+  <text x="311.6" y="182.5" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#1f5fa8"><tspan font-weight="bold">â</tspan><tspan font-style="italic" dy="4" font-size="12">x</tspan></text>
+  <text x="295.6" y="224.5" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="14" fill="#1f5fa8"><tspan>dirección de </tspan><tspan font-weight="bold">v</tspan><tspan font-style="italic" dy="4" font-size="10">P</tspan></text>
+</svg>

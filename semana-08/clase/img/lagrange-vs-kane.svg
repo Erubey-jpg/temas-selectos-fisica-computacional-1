@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 360" width="580" height="360" role="img" aria-label="Dos rutas a las mismas ecuaciones: Lagrange parte de las energias T y V, arma el Lagrangiano T - V y aplica Euler-Lagrange; Kane parte de fuerzas y aceleraciones, las proyecta sobre las velocidades parciales y escribe F_r + F_r* = 0; ambas llegan a M q segunda = f, con signo opuesto">
+  <defs>
+    <marker id="flecha-gris" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333333"/>
+    </marker>
+    <marker id="flecha-azul" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f5fa8"/>
+    </marker>
+    <marker id="flecha-rojo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="flecha-verde" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e8b57"/>
+    </marker>
+    <marker id="flecha-tenue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#999999"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="578" height="358" rx="12" fill="#f7f7f5" stroke="#d8d8d3" stroke-width="1"/>  <text x="145.0" y="32.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="18" fill="#1f5fa8" font-weight="bold" text-anchor="middle">Lagrange</text>
+  <text x="435.0" y="32.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="18" fill="#c0392b" font-weight="bold" text-anchor="middle">Kane</text>
+
+  <!-- columna de Lagrange -->
+  <rect x="30.0" y="42.0" width="230" height="40" rx="8" fill="#ffffff" stroke="#1f5fa8" stroke-width="1.5"/>
+  <rect x="30.0" y="104.0" width="230" height="40" rx="8" fill="#ffffff" stroke="#1f5fa8" stroke-width="1.5"/>
+  <rect x="30.0" y="166.0" width="230" height="40" rx="8" fill="#ffffff" stroke="#1f5fa8" stroke-width="1.5"/>
+  <text x="145.0" y="68.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="16" fill="#1f5fa8" text-anchor="middle"><tspan>energías  </tspan><tspan font-style="italic">T</tspan><tspan> y </tspan><tspan font-style="italic">V</tspan></text>
+  <text x="145.0" y="130.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="16" fill="#1f5fa8" text-anchor="middle"><tspan>Lagrangiano  </tspan><tspan font-style="italic">T</tspan><tspan> − </tspan><tspan font-style="italic">V</tspan></text>
+  <text x="145.0" y="192.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="15" fill="#1f5fa8" text-anchor="middle">ecuaciones de Euler-Lagrange</text>
+
+  <!-- columna de Kane -->
+  <rect x="320.0" y="42.0" width="230" height="40" rx="8" fill="#ffffff" stroke="#c0392b" stroke-width="1.5"/>
+  <rect x="320.0" y="104.0" width="230" height="40" rx="8" fill="#ffffff" stroke="#c0392b" stroke-width="1.5"/>
+  <rect x="320.0" y="166.0" width="230" height="40" rx="8" fill="#ffffff" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="435.0" y="67.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="15" fill="#c0392b" text-anchor="middle">fuerzas y aceleraciones</text>
+  <text x="435.0" y="129.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="15" fill="#c0392b" text-anchor="middle">velocidades parciales</text>
+  <text x="435.0" y="192.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="16" fill="#c0392b" text-anchor="middle"><tspan font-style="italic">F</tspan><tspan font-style="italic" dy="4" font-size="11">r</tspan><tspan dy="-4"> + </tspan><tspan font-style="italic">F</tspan><tspan font-style="italic" dy="4" font-size="11">r</tspan><tspan dy="-11" font-size="11">*</tspan><tspan dy="7"> = 0</tspan></text>
+
+  <!-- flechas entre cajas -->
+  <line x1="145.0" y1="82.0" x2="145.0" y2="102.0" stroke="#1f5fa8" stroke-width="1.8" marker-end="url(#flecha-azul)"/>
+  <line x1="145.0" y1="144.0" x2="145.0" y2="164.0" stroke="#1f5fa8" stroke-width="1.8" marker-end="url(#flecha-azul)"/>
+  <line x1="435.0" y1="82.0" x2="435.0" y2="102.0" stroke="#c0392b" stroke-width="1.8" marker-end="url(#flecha-rojo)"/>
+  <line x1="435.0" y1="144.0" x2="435.0" y2="164.0" stroke="#c0392b" stroke-width="1.8" marker-end="url(#flecha-rojo)"/>
+  <text x="145.0" y="232.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="13" fill="#1f5fa8" text-anchor="middle">fricción: por fuera, en forcelist</text>
+  <text x="435.0" y="232.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="13" fill="#c0392b" text-anchor="middle">fricción: una fuerza más</text>
+
+  <!-- las dos rutas llegan a la misma forma -->
+  <line x1="145.0" y1="244.0" x2="235.0" y2="290.0" stroke="#1f5fa8" stroke-width="1.8" marker-end="url(#flecha-azul)"/>
+  <line x1="435.0" y1="244.0" x2="345.0" y2="290.0" stroke="#c0392b" stroke-width="1.8" marker-end="url(#flecha-rojo)"/>
+  <text x="290.0" y="262.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="14" fill="#333333" text-anchor="middle">mismas ecuaciones,</text>
+  <text x="290.0" y="279.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="14" fill="#333333" text-anchor="middle">signo opuesto</text>
+  <rect x="160.0" y="296.0" width="260" height="44" rx="8" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+  <text x="290.0" y="325.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#333333" text-anchor="middle"><tspan font-style="italic">M</tspan><tspan> </tspan><tspan font-weight="bold">q̈</tspan><tspan> = </tspan><tspan font-weight="bold">f</tspan><tspan>   →   rhs()</tspan></text>
+</svg>

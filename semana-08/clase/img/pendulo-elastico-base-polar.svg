@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" width="360" height="300" role="img" aria-label="Pendulo elastico en la base polar: r gorro apunta del pivote a la masa (igual a -a_y) y theta gorro es perpendicular (igual a a_x); la velocidad tiene componente radial r punto y tangencial r theta punto">
+  <defs>
+    <marker id="flecha-gris" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333333"/>
+    </marker>
+    <marker id="flecha-azul" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f5fa8"/>
+    </marker>
+    <marker id="flecha-rojo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="flecha-verde" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e8b57"/>
+    </marker>
+    <marker id="flecha-tenue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#999999"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="358" height="298" rx="12" fill="#f7f7f5" stroke="#d8d8d3" stroke-width="1"/>
+  <!-- techo y pivote -->
+  <line x1="80.0" y1="55.0" x2="160.0" y2="55.0" stroke="#333333" stroke-width="2"/>
+  <path d="M 88.0 55.0 L 80.0 47.0 M 98.0 55.0 L 90.0 47.0 M 108.0 55.0 L 100.0 47.0 M 118.0 55.0 L 110.0 47.0 M 128.0 55.0 L 120.0 47.0 M 138.0 55.0 L 130.0 47.0 M 148.0 55.0 L 140.0 47.0 M 158.0 55.0 L 150.0 47.0" stroke="#333333" stroke-width="1"/>
+  <circle cx="120.0" cy="55.0" r="5" fill="#f7f7f5" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="120.0" cy="55.0" r="1.6" fill="#333333"/>
+  <line x1="120.0" y1="55.0" x2="120.0" y2="280.0" stroke="#333333" stroke-width="1" stroke-dasharray="5 4"/>
+
+  <!-- resorte y masa -->
+  <path d="M 120.0 55.0 L 128.2 69.3 L 126.9 81.0 L 143.7 82.1 L 136.3 97.3 L 153.2 98.5 L 145.8 113.6 L 162.6 114.8 L 155.2 129.9 L 172.0 131.1 L 164.6 146.3 L 181.5 147.4 L 174.0 162.6 L 190.9 163.8 L 183.5 178.9 L 194.2 183.6 L 202.5 197.9" fill="none" stroke="#8a8a85" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="202.5" cy="197.9" r="10" fill="#8a8a85" stroke="#333333" stroke-width="1.5"/>
+  <path d="M 120.0 97.0 A 42 42 0 0 0 141.0 91.4" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <text x="124.0" y="117.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#c0392b"><tspan font-style="italic">θ</tspan></text>
+  <text x="177.2" y="120.4" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#333333"><tspan font-style="italic">r</tspan></text>
+
+  <!-- componentes de la velocidad en la base polar -->
+  <line x1="202.5" y1="197.9" x2="227.5" y2="241.2" stroke="#1f5fa8" stroke-width="2.5" marker-end="url(#flecha-azul)"/>
+  <text x="233.5" y="249.2" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#1f5fa8"><tspan font-style="italic">ṙ</tspan><tspan> </tspan><tspan font-style="italic">r̂</tspan></text>
+  <line x1="202.5" y1="197.9" x2="263.1" y2="162.9" stroke="#1f5fa8" stroke-width="2.5" marker-end="url(#flecha-azul)"/>
+  <text x="269.1" y="162.9" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="17" fill="#1f5fa8"><tspan font-style="italic">r</tspan><tspan font-style="italic">θ̇</tspan><tspan> </tspan><tspan font-style="italic">θ̂</tspan></text>
+
+  <!-- identidades de la base polar -->
+  <text x="20.0" y="280.0" font-family="'Latin Modern Roman', 'CMU Serif', 'Times New Roman', serif" font-size="16" fill="#333333"><tspan font-style="italic">r̂</tspan><tspan> = −</tspan><tspan font-weight="bold">â</tspan><tspan font-style="italic" dy="4" font-size="11">y</tspan><tspan dy="-4">,   </tspan><tspan font-style="italic">θ̂</tspan><tspan> = </tspan><tspan font-weight="bold">â</tspan><tspan font-style="italic" dy="4" font-size="11">x</tspan></text>
+</svg>
